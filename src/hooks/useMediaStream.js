@@ -6,7 +6,7 @@ const useMediaStream = () => {
     try {
       const track = await createCameraVideoTrack({
         cameraId: webcamId ,
-        encoderConfig:"h180p_w240p",
+        encoderConfig:"h360p_w640p",
         optimizationMode: "motion",
         multiStream: false,
       });

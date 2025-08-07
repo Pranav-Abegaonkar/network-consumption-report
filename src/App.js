@@ -39,7 +39,7 @@ function App() {
               meetingId,
               micEnabled: micOn,
               webcamEnabled: webcamOn,
-              name: participantName ? participantName : "TestUser",
+              // name: participantName ? participantName : "TestUser",
               multiStream: true,
               customCameraVideoTrack: customVideoStream,
               customMicrophoneAudioTrack: customAudioStream
